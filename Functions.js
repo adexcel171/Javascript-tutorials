@@ -1,5 +1,7 @@
 
-In JavaScript, functions are blocks of reusable code that can be defined and called to perform a specific task. Functions help organize code into manageable and modular pieces. There are different ways to define functions in JavaScript, including function declarations, function expressions, and arrow functions.
+In JavaScript, functions are blocks of reusable code that can be defined and called to perform a specific task. 
+Functions help organize code into manageable and modular pieces.
+There are different ways to define functions in JavaScript, including function declarations, function expressions, and arrow functions.
 
 1. Function Declaration:
 Function declarations are defined using the function keyword, followed by the function name, a list of parameters enclosed in parentheses, and a block of code.

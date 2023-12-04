@@ -1,5 +1,7 @@
 
-JavaScript operators are symbols that perform operations on variables or values. They allow you to manipulate and combine values in various ways. JavaScript has a wide range of operators, which can be categorized into several types:
+JavaScript operators are symbols that perform operations on variables or values.
+ They allow you to manipulate and combine values in various ways. 
+ JavaScript has a wide range of operators, which can be categorized into several types:
 
 1. Arithmetic Operators:
 a. Addition (+):
@@ -47,6 +49,7 @@ javascript
 Copy code
 var y = 5;
 y += 3; // Equivalent to y = y + 3;   // Output: 8
+
 3. Comparison Operators:
 a. Equal (==) and Strict Equal (===):
 Compares two values for equality. === checks both value and type.

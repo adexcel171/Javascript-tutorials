@@ -1,4 +1,7 @@
-JavaScript promises are objects that represent the eventual completion or failure of an asynchronous operation and its resulting value. Promises are a way to handle asynchronous code more effectively, making it easier to work with operations that might take some time to complete, such as fetching data from a server or reading a file.
+JavaScript promises are objects that represent the eventual completion or failure of an asynchronous 
+operation and its resulting value. Promises are a way to handle asynchronous code more effectively,
+ making it easier to work with operations that might take some time to complete, 
+ such as fetching data from a server or reading a file.
 
 A promise can be in one of three states:
 
