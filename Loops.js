@@ -1,3 +1,85 @@
+for loop:
+
+javascript
+Copy code
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+// Output: 0, 1, 2, 3, 4
+while loop:
+
+javascript
+Copy code
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+// Output: 0, 1, 2, 3, 4
+do-while loop:
+
+javascript
+Copy code
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+// Output: 0, 1, 2, 3, 4
+Higher-Order Array Methods:
+forEach:
+
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(function (number) {
+  console.log(number);
+});
+// Output: 1, 2, 3, 4, 5
+map:
+
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map(function (number) {
+  return number * 2;
+});
+console.log(doubledNumbers);
+// Output: [2, 4, 6, 8, 10]
+filter:
+
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(function (number) {
+  return number % 2 === 0;
+});
+console.log(evenNumbers);
+// Output: [2, 4]
+reduce:
+
+javascript
+Copy code
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce(function (accumulator, number) {
+  return accumulator + number;
+}, 0);
+console.log(sum);
+// Output: 15
+Considerations:
+forEach: Used for iterating over array elements. It doesn't create a new array and is useful for performing an action on each element.
+
+map: Creates a new array by applying a function to each element of the original array. Useful for transforming data.
+
+filter: Creates a new array containing elements that satisfy a condition. Useful for extracting a subset of data.
+
+reduce: Accumulates a single result by applying a function to each element. Useful for calculating a summary or a single value.
+
+for loop: Traditional loops are more versatile and can be used for various types of iterations, including iterating over specific ranges.
+
+while and do-while loops: Useful when you don't know the exact number of iterations beforehand, or when the loop should continue until a certain condition is met.
+
+Each method or loop has its strengths and use cases, and the choice depends on the specific task you are trying to accomplish.
 JavaScript conditions, specifically the if and else statements, 
 allow you to control the flow of your program based on whether a specified condition evaluates to true or false.
  The basic syntax for an if statement is as follows:
