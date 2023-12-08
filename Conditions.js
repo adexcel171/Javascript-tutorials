@@ -122,7 +122,8 @@ if (condition) {
 Here's a detailed breakdown of the if and else statements:
 
 if Statement:
-The if statement is used to execute a block of code only if a specified condition evaluates to true. If the condition is false, the block of code inside the if statement is skipped.
+The if statement is used to execute a block of code only if a specified condition evaluates to true.
+ If the condition is false, the block of code inside the if statement is skipped.
 
 javascript
 Copy code
@@ -134,7 +135,8 @@ if (age >= 18) {
 In this example, the code inside the if statement will be executed because the age is greater than or equal to 18.
 
 else Statement:
-The else statement is used to specify a block of code that should be executed if the condition in the preceding if statement is false. It provides an alternative code path when the initial condition is not met.
+The else statement is used to specify a block of code that should be executed if the condition in the preceding if statement is false. 
+It provides an alternative code path when the initial condition is not met.
 
 javascript
 Copy code

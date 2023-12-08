@@ -46,9 +46,15 @@ Represents a collection of key-value pairs, where keys are strings or symbols, a
 javascript
 Copy code
 var person = {
-  name: "John",
+  name = "John",
+  age =30,
+  isStudent= false,
+
+let Eberre ={
+  name = "John",
   age: 30,
   isStudent: false
+}
 };
 Special Value:
 a. BigInt:
