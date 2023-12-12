@@ -1,13 +1,13 @@
 
 In JavaScript, functions are blocks of reusable code that can be defined and called to perform a specific task. 
 Functions help organize code into manageable and modular pieces.
-There are different ways to define functions in JavaScript, including function declarations, function expressions, and arrow functions.
+There are different ways to define functions in JavaScript,
+ including function declarations, function expressions, and arrow functions.
 
 1. Function Declaration:
 Function declarations are defined using the function keyword, followed by the function name, a list of parameters enclosed in parentheses, and a block of code.
 
-javascript
-Copy code
+
 // Function Declaration
 function greet(name) {
   console.log("Hello, " + name + "!");
@@ -19,20 +19,20 @@ greet("John"); // Output: Hello, John!
 Function expressions involve assigning a function to a variable. The function can be named (named function expression) or anonymous (anonymous function expression).
 
 javascript
-Copy code
-// Named Function Expression
+Named Function Expression
 var multiply = function multiplyNumbers(a, b) {
   return a * b;
 };
 
-// Anonymous Function Expression
+Anonymous Function Expression
 var add = function (x, y) {
   return x + y;
 };
 
-// Calling the functions
+Calling the functions
 console.log(multiply(5, 3)); // Output: 15
 console.log(add(2, 4));      // Output: 6
+
 3. Arrow Function:
 Arrow functions, introduced in ECMAScript 6, provide a concise syntax for writing functions. They are especially useful for short, single-expression functions.
 
@@ -41,10 +41,10 @@ Copy code
 // Arrow Function
 const square = (num) => num * num;
 
-// Equivalent to:
-// const square = function(num) {
-//   return num * num;
-// };
+Equivalent to:
+const square = function(num) {
+  return num * num;
+};
 
 // Calling the function
 console.log(square(4)); // Output: 16
@@ -65,12 +65,13 @@ b. Anonymous Function:
 A function without a name, often used in function expressions.
 
 javascript
-Copy code
+
 var greet = function(name) {
   console.log("Greetings, " + name + "!");
 };
 
 greet("Bob"); // Output: Greetings, Bob!
+
 c. Immediately Invoked Function Expression (IIFE):
 A function that is defined and executed immediately after its creation.
 
@@ -79,6 +80,7 @@ Copy code
 (function() {
   console.log("I am an IIFE!");
 })();
+
 d. Callback Function:
 A function passed as an argument to another function, often used in asynchronous programming.
 
